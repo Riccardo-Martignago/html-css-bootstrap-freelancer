@@ -1,6 +1,111 @@
-main{
+body{
+    font-family: sans-serif;
+}
+h1,
+h2{
     text-align: center;
 }
+h3{
+    font-size: 20px;
+}
+img{
+    object-fit: fill;
+    border-radius: 15px;
+    margin-bottom: 1.5rem;
+    display: block;
+    max-width: 100%;
+}
+.my_user-img{
+    object-fit: none;
+}
+.my_bg-blue{
+    background-color: #2c3e50;
+    color: white;
+}
+.my_dw:before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: "\f019";
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.my_star-b::before{
+    font-family: 'Font Awesome 5 Free';
+    font-size: 22px;
+    font-weight: 900;
+    content: "\f005";
+    color: #2c3e50;
+    vertical-align: middle;
+}
+.my_star-w::before{
+    font-family: 'Font Awesome 5 Free';
+    font-size: 22px;
+    font-weight: 900;
+    content: "\f005";
+    color: white;
+    vertical-align: middle;
+}
+.my_facebook::before{
+    font-family: 'Font Awesome 5 Free';
+    content: "\f39e";
+}
+.my_google::before{
+    font-family: 'Font Awesome 5 Free';
+    content: "\f0d5";
+}
+.my_twitter::before{
+    font-family: 'Font Awesome 5 Free';
+    content: "\f099";
+}
+.my_linkedin::before{
+    font-family: 'Font Awesome 5 Free';
+    content: "\f0e1";
+}
+.my_container-bg{
+    background-color: #1abc9c;
+    color: white;
+    border: transparent;
+}
 .prova{
+    max-width: 60vh;
     margin: 0 auto;
+}
+.my_form-bord{
+    border: none;
+    border-radius: 0;
+    padding: 0;
+}
+.my_b-bot{
+    border-bottom: 1px solid var(--bs-border-color);
+    padding: 0 0 1rem ;
+}
+.my_b-bot-no{
+    border-bottom: 1px solid var(--bs-border-color);
+    padding: 0;
+}
+footer{
+    text-align: center;
+}
+.my_c-green{
+    color: #1abc9c;
+    text-decoration: none;
+}
+.my_empty-butt{
+    background-color: #1abc9c;
+    color: white;
+    border: 1px solid white;
+}
+.my_bg-l-blue{
+    background-color: #3a546d;
+    color: white;
+}
+.my_bar{
+    width: 20%;
+    border: 2px solid;
+    display: inline-block;
+    border-radius: 100px;
+    vertical-align: middle;
+}
+.my_decoration{
+    text-align: center;
 }
